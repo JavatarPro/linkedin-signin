@@ -11,9 +11,13 @@ linkedin:
   redirect-uri: http://localhost:8080/exchange # The `redirect-uri` must be set in the app configuration page
   scope: r_liteprofile r_emailaddress # all these permisssions must be activated in the app configuration page
 ```
-### How to use
+### How to run the application
 
-* Open start page in your browser http://localhost:8080
+* `git clone git@github.com:JavatarPro/linkedin-signin.git`
+* `cd linkedin-signin`
+* `mvn clean install`
+* `java -jar target/linkedin-signin-0.0.1-SNAPSHOT.jar`
+* Open http://localhost:8080 in your browser
 * Click `Sign in with LinkedIn` button
 * Provide your credentials and click `Sign in` button
 
