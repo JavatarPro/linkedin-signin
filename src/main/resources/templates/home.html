@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<div style="float: left; width: 110px;"><img th:src="${avatar}"/></div>
+<div style="float: left">
+    <div><span>first name:</span><input th:value="${firstName}" readonly/></div>
+    <div><span>last name:</span><input th:value="${lastName}" readonly/></div>
+    <div><span>e-mail:</span><input th:value="${email}" readonly/></div>
+</div>
+<div style="clear: both"></div>
+<a href="/"><< back</a>
+</body>
+</html>

@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+linkedin:
+  client-id: [YOUR APP CLIENT_ID]
+  client-secret: [YOUR APP CLIENT_SECRET]
+  redirect-uri: http://localhost:8080/exchange
+  scope: r_liteprofile r_emailaddress
